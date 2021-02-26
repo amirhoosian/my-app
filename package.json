@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "'for learning nothing else'",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirhoosian/my-app.git"
+  },
+  "author": "amir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirhoosian/my-app/issues"
+  },
+  "homepage": "https://github.com/amirhoosian/my-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
