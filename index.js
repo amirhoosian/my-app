@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
         req.on('end', () => {
             let data = qs.parse(body)
             
-            console.log('my data' , bodyParser.search)
+            // console.log('my data' , bodyParser.search)
             // fs.writeFile('db.text', data.search, () => console.log('data wirted'))
             fs.appendFile('db.text', "\n" + data.search, () => console.log('append sucsed'))
         //     fs.readFile('db.text', 'utf8', (err, data) => {
