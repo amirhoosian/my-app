@@ -2,7 +2,6 @@
 const http = require('http');
 const fs = require('fs')
 const qs = require('querystring');
-const { log } = require('console');
 const server = http.createServer((req, res) => {
     let URL = req.url;
     let method = req.method
@@ -65,3 +64,4 @@ const server = http.createServer((req, res) => {
 
 
 server.listen(3000, '127.0.0.1', () => console.log("server running on local host and port:3000"))
+
